@@ -136,7 +136,7 @@ trait UserRatableTrait
     {
         $userRating = $this->getUserRating($userId);
 
-        if ($userRating->isEmpty()) {
+       if ($userRating->isEmpty() || !$userId) {
 
             $userRating = $this->createUserRatingsModel()
                 ->create(

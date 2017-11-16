@@ -2,7 +2,7 @@
 
 namespace Craigzearfoss\UserRatings;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
 
 class UserRating extends Model
