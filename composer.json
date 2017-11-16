@@ -1,6 +1,6 @@
 {
-    "name": "craigzearfoss/user-ratings",
-    "description": "Add user ratings to Laravel 5.1 Eloquent models.",
+    "name": "dev-simplify/graceframe-user-ratings",
+    "description": "Add user ratings to Laravel 5.1 Eloquent models customized for graceframe.com",
     "keywords": [
         "php",
         "craigzearfoss",
