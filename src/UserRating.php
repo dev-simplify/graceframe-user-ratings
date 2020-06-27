@@ -21,6 +21,7 @@ class UserRating extends Model
      */
     protected $fillable = [
         'entity_id',
+        'title',
         'comment',
         'dislike',
         'favorite',
